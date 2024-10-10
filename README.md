@@ -1,2 +1,2 @@
-# Vehicle-Builder---Module-8-Challenge
-A vehicle building application for the Module 8 Bootcamp challenge
+# README-BUILDER-Module-7-Challenge
+This application serves as a READ.me builder where users input information
