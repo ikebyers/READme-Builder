@@ -77,7 +77,8 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license != "N/A"){
-    return `## License ${license}`;
+    return `## License 
+${license}`;
   } else `${license}`
 }
 
@@ -87,7 +88,7 @@ function generateMarkdown(data) {
 ${renderLicenseBadge(data.license)}${renderLicenseLink(data.license)}
 ## Table of Contents
 - [Description](#description)
-- [Installation](#install)
+- [Installation](#installation-instructions)
 - [Usage](#usage)
 - [License](#license)
 - [Credits](#credits)
